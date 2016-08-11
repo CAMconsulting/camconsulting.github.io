@@ -4,10 +4,10 @@
     <title>CAM Consulting</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://camconsulting.github.io/camconsulting/</link>
-    <atom:link href="http://camconsulting.github.io/camconsulting/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Aug 2016 14:25:37 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2016 14:25:37 +0200</lastBuildDate>
+    <link>http://camconsulting.github.io//</link>
+    <atom:link href="http://camconsulting.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 11 Aug 2016 14:59:03 +0200</pubDate>
+    <lastBuildDate>Thu, 11 Aug 2016 14:59:03 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Mon, 25 Jul 2016 08:06:47 +0200</pubDate>
-        <link>http://camconsulting.github.io/camconsulting/jekyll/update/2016/07/25/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://camconsulting.github.io/camconsulting/jekyll/update/2016/07/25/welcome-to-jekyll.html</guid>
+        <link>http://camconsulting.github.io//jekyll/update/2016/07/25/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://camconsulting.github.io//jekyll/update/2016/07/25/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
