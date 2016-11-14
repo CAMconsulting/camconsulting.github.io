@@ -1,0 +1,126 @@
+---
+---
+@import "app.scss";
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/sofiapro-light.otf');
+}
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    .button{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      border-radius: 15px;
+      border-color: white;
+    }
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+#logo{
+  @include mui-animation(zoom);
+animation-duration: 4s;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  z-index: 200;
+  img{
+    height: 10rem;
+    margin-top: 10vh;
+  }
+}
+#hero-h1{
+  @include mui-animation(fade);
+animation-duration: 3s;
+  position: absolute;
+  top: 40vh;
+  font-family: 'Sofia Pro', sans-serif;
+  color: white;
+  z-index: 200;
+}
+#hero-h2{
+  @include mui-animation(fade);
+animation-duration: 3s;
+  position: absolute;
+  top: 50vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 0.7em;
+  color: white;
+  // color: #BE6195;
+  z-index: 200;
+}
+#hero-cta{
+  @include mui-animation(slide($direction: up));
+animation-duration: 3s;
+  position: absolute;
+  top: 80vh;
+  z-index: 200;
+}
+
+
+button.hollow.button.large {
+
+    color: white;
+    border-color: white;
+}
+.prueba{
+  @include mui-animation(fade, slide($direction: up));
+animation-duration: 1s;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
